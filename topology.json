@@ -1,0 +1,84 @@
+{
+  "clusters": [
+    {
+      "nodes": [
+        {
+          "node": {
+            "hostnames": {
+              "manage": [
+                "kworker1.thenetcircle.lab"
+              ],
+              "storage": [
+                "10.60.3.21"
+              ]
+            },
+            "zone": 1
+          },
+          "devices": [
+            {
+              "name": "/dev/sda2",
+              "destroydata": true
+            }
+          ]
+        },
+        {
+          "node": {
+            "hostnames": {
+              "manage": [
+                "kworker2.thenetcircle.lab"
+              ],
+              "storage": [
+                "10.60.3.22"
+              ]
+            },
+            "zone": 1
+          },
+          "devices": [
+            {
+              "name": "/dev/sda2",
+              "destroydata": true
+            }
+          ]
+        },
+        {
+          "node": {
+            "hostnames": {
+              "manage": [
+                "kworker3.thenetcircle.lab"
+              ],
+              "storage": [
+                "10.60.3.23"
+              ]
+            },
+            "zone": 1
+          },
+          "devices": [
+            {
+              "name": "/dev/sda3",
+              "destroydata": true
+            }
+          ]
+        },
+        {
+          "node": {
+            "hostnames": {
+              "manage": [
+                "kworker4.thenetcircle.lab"
+              ],
+              "storage": [
+                "10.60.3.24"
+              ]
+            },
+            "zone": 1
+          },
+          "devices": [
+            {
+              "name": "/dev/sda2",
+              "destroydata": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
